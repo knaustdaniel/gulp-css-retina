@@ -8,7 +8,7 @@ var images = require('images');
 var path = require('path');
 var fs = require('fs');
 
-var reBackgroundImageSrc = /url\((?:[\'\"])?((?:(?:http|https):\/\/)?(?:.+))(\.(?:gif|png|jpg|jpeg|webp|svg))(?:[\'\"])?\)/;
+var reBackgroundImageSrc = /url\((?:[\'\"])?((?:(?:http|https):\/\/)?(?:.+))(\.(?:gif|png|jpg|jpeg|webp))(?:[\'\"])?\)/;
 
 var defaultOptions = {
 	decodeEntities: false,
